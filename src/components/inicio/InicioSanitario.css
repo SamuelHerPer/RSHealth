@@ -1,0 +1,83 @@
+#ContenidoInicio {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: center;
+    height: 100%;
+}
+
+.bloque1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bloque2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ultimosResultados {
+    display: flex;
+    flex-direction: column;
+}
+
+.ultResultados {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ultimasConsultas {
+    display: flex;
+    flex-direction: column;
+}
+
+.ultConsultas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.botonS {
+    align-self: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.citasProximas {
+    display: flex;
+    flex-direction: column;
+}
+
+.cargando {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Esto hace que el contenedor ocupe toda la altura de la ventana */
+    flex-direction: column;
+    /* Ordena los elementos en dirección vertical */
+}
+
+.cargando .MuiCircularProgress-root {
+    margin-bottom: 20px;
+    /* Añade un poco de espacio entre el indicador y el texto */
+}
+
+@media (max-width: 1200px) {
+    #ContenidoInicio {
+        flex-direction: column;
+    }
+
+    .bloque1 {
+        width: 100%;
+    }
+    
+    .bloque2 {
+        width: 100%;
+    }
+}

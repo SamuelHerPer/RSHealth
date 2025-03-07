@@ -1,0 +1,16 @@
+#Datos p{
+    margin: 0;
+    font-weight: bold;
+}
+
+#Datos div{
+    padding-left: 10px;
+}
+
+#Nombre {
+    color: black;
+}
+
+#Correo {
+    color: #7a7a7a;
+}

@@ -1,0 +1,32 @@
+#PaginaGestionPacientes {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 1em 0 1em;
+    box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.5);
+    background-color: #ffedd5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+    align-self: center;
+}
+
+#PaginaGestionPacientes h1{
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 676px){
+    #PaginaGestionPacientes {
+        width: 400px;
+    }
+
+    input {
+        width: 150px;
+    }
+
+    .desplegable {
+        width: 162px;
+    }
+}

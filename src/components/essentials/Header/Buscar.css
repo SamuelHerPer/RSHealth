@@ -1,0 +1,42 @@
+#Buscar {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    margin-left: 2vw;
+    width: 30%;
+    height: 80%;
+    border-radius: 25px;
+    padding-left: 15px;
+    justify-content: space-between;
+}
+
+#buscar {
+    padding: 10px;
+    background-color: #f5f5f5;
+    width: 90%;
+    font-size: medium;
+    color: black;
+    border: none;
+    outline: none;
+}
+
+.buscarSanitario {
+    background-color: #ecfdf5 !important;
+}
+
+.buscarAdministrador {
+    background-color: #fff7ed !important;
+}
+
+.buscarPaciente {
+    background-color: #eff6ff !important;
+}
+
+.lupa {
+    color: gray !important;
+    margin-right: 10px;
+}
+
+.lupa:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,126 @@
+#InformacionDelPaciente {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.TituloSeccion {
+    display: flex;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #10b981; 
+    font-size: 20px; 
+    font-weight: bold;
+    text-align: left; 
+    border-bottom: 2px solid #10b981; 
+    padding-bottom: 10px; 
+    margin-bottom: 20px;
+    overflow: hidden; 
+}
+
+
+
+#InformacionPersonal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+#DatosPersonalesPaciente {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+}
+
+.HistorialMedico{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.Seccion3{
+    width: 63%;
+    align-items: center;
+}
+
+.Seccion2 {
+    width: 30%;
+    align-items: center;
+}
+
+.Seccion1{
+    width: 30%;
+    align-items: center;
+}
+
+
+.Datos {
+    background-color: #ecfdf5;
+    border: 2px solid #10b981; 
+    border-radius: 12px; 
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+}
+
+.Datos p {
+    font-size: 16px; 
+    color: #495057; 
+    margin-left: 0; 
+    padding-bottom: 10px; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+.DatoP {
+    font-weight: 300; 
+    line-height: 1.5; 
+    text-align: left;
+    padding-left: 50px;
+}
+
+.botonesAtrasImp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btnImprimirDetalles{
+    align-self: center;
+}
+
+.btnImprimirDetalles:hover{
+    border: 1px solid #10b981;
+}
+
+
+@media screen and (max-width: 1000px){
+    #DatosPersonalesPaciente {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Seccion1 {
+        width: 90%;
+    }
+
+    .Seccion2 {
+        width: 90%;
+    }
+
+    .Seccion3 {
+        width: 90%;
+    }
+}

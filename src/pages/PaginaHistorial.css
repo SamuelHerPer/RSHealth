@@ -1,0 +1,6 @@
+#PaginaHistorial {
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    width: 100%;
+}

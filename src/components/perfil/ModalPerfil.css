@@ -1,0 +1,98 @@
+#ModalPerfil {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+}
+
+.contenidoPerfil {
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: right;
+    margin: 10px;
+}
+
+.contenidoPerfil input {
+    margin-left: 10px;
+}
+
+.titulo {
+    text-align: center;
+    color: #213547;
+}
+
+.ocultar {
+    display: none !important;
+}
+
+input {
+    width: 250px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #39c;
+}
+
+input[type="file"] {
+    border: none;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.BotonModalPerfil {
+    margin: 1em;
+}
+
+.inputPerfilPaciente {
+    border-color: #3b82f6;
+}
+
+.inputPerfilPaciente:focus {
+    outline: none;
+}
+
+.inputPerfilSanitario {
+    border-color: #10b981;
+}
+
+.inputPerfilSanitario:focus {
+    outline: none;
+}
+
+.inputPerfilAdministrador {
+    border-color: #f97316;
+}
+
+.inputPerfilAdministrador:focus {
+    outline: none;
+}
+
+.desplegable {
+    width: 262px;
+    height: 27px;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 676px){
+    input {
+        width: 150px;
+    }
+
+    .desplegable {
+        width: 162px;
+    }
+}

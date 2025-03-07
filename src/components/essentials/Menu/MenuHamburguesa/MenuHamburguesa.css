@@ -1,0 +1,158 @@
+#MenuHamburguesa {
+    position: fixed;
+    top: -600vh;
+}
+
+.paciente {
+    background-color: #3b82f6 !important;
+}
+
+.sanitario {
+    background-color: #10b981 !important;
+}
+
+.administrador {
+    background-color: #f97316 !important;
+}
+
+@media screen and (max-width: 676px){
+    #MenuHamburguesa {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        width: 100vw;
+        height: calc(100vh - 70px);
+        background-color: gray;
+        color: #343a40;
+        z-index: 1001;
+        transition: top 0.4s ease;
+        }
+        
+        /* Estilo para mostrar el menú */
+        #MenuHamburguesa.mostrar {
+            top: 0;
+            transition: 0.4s;
+        }
+          
+        /* Estilo para ocultar el menú */
+        #MenuHamburguesa.oculto {
+            top: -600vh;
+            transition: 2s;
+        }
+
+        #HeaderMenuHamburguesa {
+            display: flex;
+            flex-direction: row;
+            width: 90%;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        #cerrarMenuHamburguesa svg:hover {
+            cursor: pointer;
+            transition: 0.35s;
+            transform: scale(1.2);
+        }
+
+        #cerrarMenuHamburguesa svg {
+            font-size: 35px;
+            transition: 0.35s;
+        }
+
+        #logoMenuHamburguesa img {
+            height: 100px;
+            width: 100px;
+            border-radius: 15px;
+        }
+
+        #MenuHamburguesa svg {
+            font-size: 40px;
+            transition: 0.35s;
+            color: white;
+        }
+
+        .enlacesMenuHamburguesa {
+            width: 100%;
+        }
+
+        #accionesMenuHamburguesa {
+            display: flex;
+            width: 95%;
+            justify-content: space-between;
+            align-self: center;
+            align-items: center;
+            margin-top: auto;
+            margin-bottom: 5px;
+        }
+
+        .link {
+            display: flex;
+            flex-direction: column;
+            align-items: baseline;
+            margin-left: 10px;
+        }
+
+        .link:hover {
+            cursor: default;
+        }
+
+        .link a {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-left: 5px;
+            margin-bottom: 15px;
+            transition: 0.35s;
+        }
+
+        .link a .texto {
+            font-size: 19px;
+            color: #f8fafc;
+            margin-left: 10px;
+        }
+
+        .link a:hover {
+            transition: 0.35s;
+            transform: scale(1.1);
+        }
+
+        .opcionMenuHamburguesa {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: 0.35s;
+            cursor: pointer;
+        }
+
+        .opcionMenuHamburguesa:hover {
+            transition: 0.35s;
+            transform: scale(1.1);
+        }
+
+        .opcionMenuHamburguesa .texto {
+            font-size: 19px;
+            font-weight: 500;
+            align-self: center;
+            color: #f8fafc;
+        }
+
+        #PerfilMenuHamburguesa {
+            cursor: pointer;
+            transition: 0.35s;
+        }
+
+        #PerfilMenuHamburguesa:hover {
+            transform: scale(1.1);
+            transition: 0.35s;
+        }
+
+        .avisoIniciarSesion {
+            display: flex;
+            align-self: center;
+            justify-self: center;
+            color: #f8fafc;
+        }
+}

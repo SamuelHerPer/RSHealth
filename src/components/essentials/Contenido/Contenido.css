@@ -1,0 +1,16 @@
+#Contenido{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 100px; /* Ancho del navbar */
+    margin-top: 55px;   /* Altura del header */
+    width: 100%;
+    min-height: calc(100vh - 55px); /* 100vh menos la altura del header*/
+    justify-content: center;
+}
+
+@media screen and (max-width: 676px){
+    #Contenido {
+        margin-left: 0;
+    }
+}

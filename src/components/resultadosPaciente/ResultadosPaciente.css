@@ -1,0 +1,19 @@
+#FiltrosConsulta {
+    border-bottom: 1px solid black;
+}
+
+#ResultadosPaciente {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 4em;
+}
+
+#especialidad {
+    border-color: #3b82f6;
+    padding: 5px;
+    background-color: white;
+    width: 20%;
+    border-radius: 5px;
+}

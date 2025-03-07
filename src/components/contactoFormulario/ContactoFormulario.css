@@ -1,0 +1,58 @@
+#ContenedorFormulario{
+  margin: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .contact-form div {
+    margin-bottom: 15px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .contact-form textarea {
+    height: 250px;
+}
+  
+  .contact-form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    align-self: center;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .Toastify__toast--success {
+    background-color: #28a745;
+    color: #000 !important; 
+  }
+  
+  .Toastify__toast--error {
+    background-color: #dc3545;
+    color: #000 !important;
+  }
+  

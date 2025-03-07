@@ -1,0 +1,8 @@
+.MapaFarmacias {
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+    height: 400px;
+    left: 15%;
+    border-radius: 5px;
+}

@@ -1,0 +1,16 @@
+#PaginaMedicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#TarjetasSanitarios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    gap: 10px;
+    margin-bottom: 20px;
+}

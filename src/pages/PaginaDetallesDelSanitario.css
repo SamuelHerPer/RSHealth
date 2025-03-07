@@ -1,0 +1,22 @@
+#PaginaDetallesDelSanitario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-self: center;
+    overflow-y:hidden
+}
+
+.volver {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #495057;
+
+}
+
+.volver:hover {
+    color: #495057;
+}
+
+.volver svg {
+    font-size: 30px;
+}

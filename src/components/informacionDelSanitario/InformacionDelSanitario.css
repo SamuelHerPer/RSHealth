@@ -1,0 +1,115 @@
+#InformacionDelSanitario {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.TituloSeccionM {
+    display: flex;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #3b82f6 ; 
+    font-size: 20px; 
+    font-weight:900;
+    text-align: left; 
+    border-bottom: 2px solid #3b82f6 ; 
+    padding-bottom: 10px;
+    margin-bottom: 20px; 
+    overflow: hidden;
+}
+
+
+
+#InformacionPersonalM {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+#DatosPersonalesMedicos {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+}
+
+.HistorialMedicoM{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.Seccion3M{
+    width: 63%;
+    align-items: center;
+
+}
+
+.Seccion2M {
+    width: 30%;
+    align-items: center;
+}
+
+.Seccion1M{
+    width: 30%;
+    align-items: center;
+
+}
+
+
+.DatosM {
+    background-color: #eff6ff;
+    border: 2px solid #3b82f6 ; 
+    border-radius: 12px; 
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+
+}
+
+
+.DatosM p {
+    font-size: 16px; 
+    color: #495057; 
+    margin-left: 0; 
+    padding-bottom: 10px; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+.DatoM {
+    font-weight: 300; 
+    line-height: 1.5; 
+    text-align: left;
+    padding-left: 50px;
+}
+
+@media screen and (max-width: 1000px){
+    #DatosPersonalesMedicos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Seccion1M {
+        width: 90%;
+    }
+
+    .Seccion2 {
+        width: 90%;
+    }
+
+    .Seccion3M {
+        width: 90%;
+    }
+}

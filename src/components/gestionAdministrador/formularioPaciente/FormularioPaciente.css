@@ -1,0 +1,41 @@
+#FormularioPaciente {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: end;
+    padding: 20px;
+}
+
+#FormularioPaciente input, select{
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-color: orange;
+}
+
+#FormularioPaciente input:focus, select:focus{
+    outline: none;
+}
+
+.BotonAdministradorCrearUsuario {
+    align-self: center;
+    background-color: #f97316;
+    color: white;
+    transition: 0.5s;
+    border: none;
+}
+
+.BotonAdministradorCrearUsuario:hover {
+    box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    border: none;
+}
+
+.desplegableAdministrador {
+    width: 262px;
+    height: 27px;
+    border-radius: 5px;
+}
+
+.errorInputForm{
+    color:  red !important;
+}

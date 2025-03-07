@@ -1,0 +1,39 @@
+#PaginaPacientes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#TarjetasPacientes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+}
+
+#FiltrosConsulta{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.busquedaS{
+    border: 1px solid #10b981;
+    margin-right: 5px;
+}
+
+.btnImprimir{
+border-radius: 8px;
+padding: 0.6em 1.2em;
+font-size: 1em;
+font-weight: 500;
+cursor: pointer;
+}
+
+.btnImprimir:hover{
+        border: 1px solid #10b981;
+    }

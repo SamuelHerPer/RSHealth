@@ -1,0 +1,24 @@
+.imagen {
+    height: 40px;
+    width: 40px;
+    margin-top: 7px;
+    margin-left: 10px;
+    border-radius: 60px;
+}
+
+.avatarPerfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.avatarPerfil span {
+    font-size: 18px;
+    font-weight: 700;
+}

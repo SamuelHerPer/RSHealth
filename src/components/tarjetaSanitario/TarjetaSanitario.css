@@ -1,0 +1,137 @@
+#TarjetaSanitario {
+    display: flex;
+    flex-direction: row;
+}
+
+#TarjetaSanitario:last-child {
+    margin-right: 0px;
+}
+
+#NombreSanitario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eff6ff;
+    margin-right: 2px;
+    padding: 1rem;
+    border-radius: 5px 0 0 5px;
+    width: 90px;
+}
+
+#InformacionSanitario {
+    background-color: #eff6ff;
+    padding: 1rem;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+}
+
+#DatosSanitario {
+    display: flex;
+    flex-direction: row;
+}
+
+.Dato {
+    margin: 15px;
+}
+
+.Dato p:first-child {
+    font-size: .8125rem;
+    color: #74788d;
+}
+
+.Dato h5 {
+    font-size: 1.01562rem;
+    color: #495057;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+#MasInformacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-size: .8125rem;
+    color: #495057;
+}
+
+#MasInformacion a {
+    display: flex;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    color: #495057;
+    align-items: center;
+}
+
+#MasInformacion a svg {
+    font-size: .9rem;
+    margin-left: 5px;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+}
+
+.avatar span {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.color-0 {
+    color: #556ee6;
+    background-color: #d4daf9;
+}
+
+.color-1 {
+    color: #f1b44c;
+    background-color: #fcecd2;
+}
+
+.color-2 {
+    color: #f46c6c;
+    background-color: #fcd9d9;
+}
+
+.color-3 {
+    color: #34c38f;
+    background-color: #ccf0e3;
+}
+
+.color-4 {
+    color: #50a5f1;
+    background-color: #d3e8fc;
+}
+
+.color-5 {
+    color: #343a40;
+    background-color: #cccdcf;
+}
+
+@media screen and (max-width: 1050px){
+    #TarjetaSanitario {
+        flex-direction: column;
+        margin-left: 5px;
+    }
+
+    #NombreSanitario {
+        width: 300px;
+        margin-bottom: 2px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    #InformacionSanitario {
+        width: 300px;
+        border-radius: 0 0 5px 5px;
+    }
+}

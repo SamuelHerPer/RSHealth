@@ -1,0 +1,138 @@
+#ModalResultado {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+    font-size: 13px;
+}
+
+.contenidoResultado {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb !important;
+    border-radius: 10px;
+    padding: 35px;
+    color: black;
+    padding-top: 10px !important;
+    min-width: 30%;
+    width: fit-content;
+    max-width: 70%;
+    max-height: 90%;
+    overflow-y: 90%;
+}
+
+
+
+.ocultar {
+    display: none !important;
+}
+
+.botonesResultado {
+    display: flex;
+    justify-content: end;
+}
+
+.cerrar:hover {
+    cursor: pointer;
+}
+
+.FilaResultado {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.DatosResultado {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 1em;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.5);
+    background-color: #dbeafe;
+    width: 70%;
+    align-self: center;
+}
+
+.DatosResultadoS {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 1em;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.5);
+    background-color: #ecfdf5;
+    width: 70%;
+    align-self: center;
+}
+
+.InformacionResultado {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.CajaResultado {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 0.5em;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.5);
+    background-color: #dbeafe;
+    width: 70%;
+    max-height: 25em;
+}
+
+.CajaResultado p {
+    overflow: auto;
+}
+
+.CajaResultadoS {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 0.5em;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.5);
+    background-color: #ecfdf5;
+    width: 70%;
+    max-height: 25em;
+}
+
+.CajaResultadoS p {
+    overflow: auto;
+}
+
+.CajaResultado h4 {
+    margin: 0;
+}
+
+.CajaResultadoS h4 {
+    margin: 0;
+}
+
+.InformeResultado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.adjuntos {
+    height: 20px;
+    margin-top: 10px;
+}
+
+.adjuntos h4{
+    margin: 0;
+}

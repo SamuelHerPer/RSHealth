@@ -1,0 +1,20 @@
+#HistorialPaciente {
+    width: 100%;
+}
+
+.FiltrarHistorial {
+    color: #f8fafc;
+    background-color: #3b82f6;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.FiltrarHistorial:hover {
+    cursor: pointer;
+}
+
+#MenuHistorial{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

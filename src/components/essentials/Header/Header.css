@@ -1,0 +1,61 @@
+#Header {
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    width: calc(100vw - 100px);
+    height: 55px;
+    position: fixed;
+    left: 100px;
+    top: 0px;
+    overflow-y: auto;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+#Header a {
+    margin-right: 20px;
+}
+
+.paciente {
+    background-color: #3b82f6 !important;
+}
+
+.sanitario {
+    background-color: #10b981 !important;
+}
+
+.administrador {
+    background-color: #f97316 !important;
+}
+
+.headerOculto {
+    display: none !important;
+}
+
+
+@media screen and (max-width: 810px){
+    #Header {
+        justify-content: center;
+    }
+
+    #Buscar {
+        display: none;
+    }
+
+    #Header a {
+        margin-right: 0px;
+    }
+
+    #UsuarioDefault a {
+        margin-right: 120px;
+    }
+}
+
+@media screen and (max-width: 676px){
+    #Header {
+        left: 0px;
+        width: 100vw;
+    }
+}

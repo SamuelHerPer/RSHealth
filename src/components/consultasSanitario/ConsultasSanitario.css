@@ -1,0 +1,53 @@
+#ConsultasSanitario {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 3em;
+    box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.5);
+    background-color: #6ee7b7;
+    min-width: 600px;
+    max-width: 1000px;
+    justify-content: center;
+    align-self: center;
+    min-width: 50%;
+    max-width: 60%;
+}
+
+label {
+    color: black;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.inputSanitario {
+    border: 1px solid green;
+    border-radius: 10px;
+    resize: none;
+    max-width: 295px;
+}
+
+.caja {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#OpcionFiltroSanitario select{
+    margin-right: 10px;
+    margin-bottom: 1em;
+}
+
+#FiltrosConsultaSanitario {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.busqueda {
+    margin-right: 5px;
+}

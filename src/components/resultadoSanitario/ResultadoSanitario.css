@@ -1,0 +1,23 @@
+#ResultadoSanitario {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2em;
+    box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.5);
+    background-color: #6ee7b7;
+    justify-content: center;
+    align-self: center;
+    min-width: 50%;
+    max-width: 70%;
+}
+
+#FiltrosResultado {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.busqueda {
+    margin-right: 5px;
+}

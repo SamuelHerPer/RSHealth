@@ -1,0 +1,29 @@
+#Usuario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding-right: 15px;
+    height: 80%;
+    border-radius: 15px;
+    font-size: 12px;
+    transition: 0.5s;
+}
+
+#Usuario:hover{
+    background-color: #d1d5db !important;
+    transition: 0.5s;
+}
+
+.usuarioSanitario {
+    background-color: #ecfdf5 !important;
+}
+
+.usuarioAdministrador {
+    background-color: #fff7ed !important;
+}
+
+.usuarioPaciente {
+    background-color: #eff6ff !important;
+}

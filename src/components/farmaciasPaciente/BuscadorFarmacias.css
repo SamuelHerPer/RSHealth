@@ -1,0 +1,26 @@
+.avisoCargandoFarmacias {
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.errorInformativo {
+    color: red;
+}
+
+.buscarFarmacias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.buscarFarmacias button {
+    margin-left: 15px;
+}
+
+.listadoFarmacias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}

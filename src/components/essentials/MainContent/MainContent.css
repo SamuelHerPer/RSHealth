@@ -1,0 +1,11 @@
+#MainContent {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 125px);
+}
+
+@media screen and (max-width: 676px){
+    #MainContent {
+        min-height: calc(100vh - 195px);
+    }
+}

@@ -1,0 +1,25 @@
+#Inicio{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+
+}
+
+#PaginaLogin {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2000;
+    background-color: #f8f8fb;
+}
+
+@media (max-width: 1200px) {
+    #PaginaLogin {
+        flex-direction: column;
+    }
+}

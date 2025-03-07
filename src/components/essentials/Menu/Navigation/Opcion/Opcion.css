@@ -1,0 +1,23 @@
+.opcion {
+    flex-direction: column !important;
+    transition: 0.25s !important;
+}
+
+.opcion:hover {
+    transition: 0.25s !important;
+    font-size: 1.25em !important;
+}
+
+.opcion-icono {
+    justify-content: center;
+}
+
+.icono {
+    font-size: 2em !important;
+    color: #f8fafc;
+}
+
+.opcion-texto {
+    font-size: 2em !important;
+    color: #f8fafc;
+}

@@ -1,0 +1,46 @@
+.carousel {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .carousel-button {
+    transform: translateY(-50%);
+    background-color: #3b82f6;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    color: #f8fafc;
+    transition: 0.35s;
+    margin: 15px;
+  }
+  
+  .carousel-button:hover {
+    background-color: #8fb0e7;
+    transition: 0.35s;
+    scale: 0.9;
+  }
+
+  .carousel-button:focus {
+    outline: none;
+  }
+  

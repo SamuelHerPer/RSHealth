@@ -1,0 +1,33 @@
+#ContenidoInicioAdmin {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+.tablaUsers {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  max-width: 80vw;
+}
+
+.headerTablaAdmin{
+  background-color: #f97316 ;
+}
+
+.tablaUsers h2{
+  margin: 40px 0;
+}
+  
+@media (max-width: 670px) {
+  .hide-on-small {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1322px) {
+  .hide-on-medium {
+    display: none !important;
+  }
+}
